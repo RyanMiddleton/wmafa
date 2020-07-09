@@ -19,9 +19,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navCollapse">
             <ul class="navbar-nav nav-ul">
-                <li class="nav-li"><a href="./schedule.html">Schedule</a></li>
-    			<li class="nav-li"><a href="./about.html">About Us</a></li>
-    			<li class="nav-li"><a href="./contact.html">Contact</a></li>
+                <li class="nav-li"><a href="./schedule.php">Schedule</a></li>
+    			<li class="nav-li"><a href="./about.php">About Us</a></li>
+    			<li class="nav-li"><a href="./contact.php">Contact</a></li>
     		</ul>
         </div>
     </nav>
