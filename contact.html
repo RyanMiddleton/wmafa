@@ -27,13 +27,26 @@
     </nav>
     
     <div class="container">
-        <form method="post" name="contact_form" action="contact-handler.php">
-            Your Name:<input type="text" name="name">
-            Email:<input type="text" name="email">
-            Message:<textarea name="meassage"></textarea>
-            <input class="btn btn-primary" type="submit" value="Submit">
+        <form action="https://formspree.io/xwkrrjgo" method="POST">
+            <label>
+                Your email:
+                <input type="text" name="_replyto">
+            </label>
+
+            <label>
+                Your Name:
+                <input type="text" name="name"></input>
+            </label>
+
+            <label>
+                Your message:
+                <textarea name="message"></textarea>
+            </label>
+            
+            <button class="btn btn-primary" type="submit">Send</button>
         </form>
     </div>
+
     <footer class="footer">
 
     </footer>
