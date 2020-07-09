@@ -16,7 +16,7 @@ if(!preg_match(“/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z
 }
 
 if(empty($errors)){
-    $to = $myemail;
+    /*$to = $myemail;
 
     $email_subject = "Contact form submission: $name";
 
@@ -30,7 +30,9 @@ if(empty($errors)){
 
     $headers .= "Reply-To: $email_address";
 
-    mail($to,$email_subject,$email_body,$headers);
+    mail($to,$email_subject,$email_body,$headers);*/
+
+    echo 'Success'
 
     header('Location: contact-thank-you.html');
 }
